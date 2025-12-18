@@ -141,14 +141,14 @@ string memory str = string(decodedItem);
 
 The implementation includes comprehensive test coverage:
 
-- ✅ RLPWriter
+- RLPWriter
   - Single byte encoding
   - String encoding (short and long)
   - List encoding (short and long)
   - Nested list encoding
   - Error cases
 
-- ✅ RLPReader
+- RLPReader
   - Single byte decoding
   - String decoding (short and long)
   - List decoding (short and long)
